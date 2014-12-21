@@ -18,10 +18,14 @@
   "author": "Orlin M Bozhinov <om@soundsapiens.com>",
   "contributors": [],
   "dependencies": {
-    "bats": "git+https://github.com/sstephenson/bats.git#v0.4.0"
+    "bats": "git+https://github.com/sstephenson/bats.git#v0.4.0",
+    "bon": "^0.1.2",
+    "install-g": "*"
   },
   "devDependencies": {},
-  "scripts": {},
+  "bin": { "batsies" : "./bin/batsies.sh" },
+  "preferGlobal": true,
+  "scripts": { "install": "node_modules/.bin/install-g || true" },
   "engines": {},
   "licenses": [
     {
