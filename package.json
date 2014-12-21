@@ -1,19 +1,25 @@
 {
-  "name": "batsies",
-  "description": "bats / cli tests helper via npm",
+  "name": "batshit",
+  "description": "bats helps with testing shit via npm",
   "keywords": [
     "bats",
+    "unix",
+    "shell",
+    "bin",
     "cli",
-    "testing"
+    "test",
+    "framework",
+    "wrapper",
+    "helpers"
   ],
   "version": "0.0.0",
   "repository": {
     "type": "git",
-    "url": "git://github.com/orlin/batsies.git"
+    "url": "git://github.com/orlin/batshit.git"
   },
   "bugs": {
     "mail": "om@soundsapiens.com",
-    "url": "https://github.com/orlin/batsies/issues"
+    "url": "https://github.com/orlin/batshit/issues"
   },
   "author": "Orlin M Bozhinov <om@soundsapiens.com>",
   "contributors": [],
@@ -23,7 +29,7 @@
     "install-g": "*"
   },
   "devDependencies": {},
-  "bin": { "batsies" : "./bin/batsies.sh" },
+  "bin": { "batshit" : "./bin/batshit.sh" },
   "preferGlobal": true,
   "scripts": { "install": "node_modules/.bin/install-g || true" },
   "engines": {},
