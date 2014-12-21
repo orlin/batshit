@@ -1,9 +1,11 @@
 # batshit
 
+[![NPM](https://nodei.co/npm/on-up.png?mini=true)](https://www.npmjs.org/package/on-up)
+
 That `bats` is *the shit* for UNIX-shell-programs-testing should be well known.
 Testing-with-`bats` should be a hit too.
 
-# Why
+## Why
 
 I like to test cli scripts with [bats](https://github.com/sstephenson/bats),
 however I write my scripts as node_modules and bats isn't published thus yet.
