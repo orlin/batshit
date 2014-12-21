@@ -1,6 +1,6 @@
 # batshit
 
-[![NPM](https://nodei.co/npm/on-up.png?mini=true)](https://www.npmjs.org/package/on-up)
+[![NPM](https://nodei.co/npm/batshit.png?mini=true)](https://www.npmjs.org/package/batshit)
 
 That `bats` is *the shit* for UNIX-shell-programs-testing should be well known.
 Testing-with-`bats` should be a hit too.
