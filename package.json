@@ -1,0 +1,32 @@
+{
+  "name": "batsies",
+  "description": "bats / cli tests helper via npm",
+  "keywords": [
+    "bats",
+    "cli",
+    "testing"
+  ],
+  "version": "0.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/orlin/batsies.git"
+  },
+  "bugs": {
+    "mail": "om@soundsapiens.com",
+    "url": "https://github.com/orlin/batsies/issues"
+  },
+  "author": "Orlin M Bozhinov <om@soundsapiens.com>",
+  "contributors": [],
+  "dependencies": {
+    "bats": "git+https://github.com/sstephenson/bats.git#v0.4.0"
+  },
+  "devDependencies": {},
+  "scripts": {},
+  "engines": {},
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://orlin.mit-license.org"
+    }
+  ]
+}
