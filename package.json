@@ -29,12 +29,12 @@
   },
   "devDependencies": {},
   "bin": {
-    "batshit": "./bin/batshit.sh",
-    "batshit-helpers": "./bin/batshit-helpers.sh"
+    "batshit": "./bin/batshit.bash",
+    "batshit-helpers": "./bin/batshit-helpers.bash"
     },
   "preferGlobal": true,
   "scripts": {
-    "preinstall": "bin/prepare.sh",
+    "preinstall": "bin/prepare.bash",
     "install": "node_modules/.bin/install-g || true"
     },
   "engines": {},
