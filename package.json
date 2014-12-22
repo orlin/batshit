@@ -24,14 +24,16 @@
   "author": "Orlin M Bozhinov <om@soundsapiens.com>",
   "contributors": [],
   "dependencies": {
-    "bats": "git+https://github.com/sstephenson/bats.git#v0.4.0",
     "bon": "^0.1.2",
     "install-g": "*"
   },
   "devDependencies": {},
   "bin": { "batshit" : "./bin/batshit.sh" },
   "preferGlobal": true,
-  "scripts": { "install": "node_modules/.bin/install-g || true" },
+  "scripts": {
+    "preinstall": "bin/prepare.sh",
+    "install": "node_modules/.bin/install-g || true"
+    },
   "engines": {},
   "licenses": [
     {

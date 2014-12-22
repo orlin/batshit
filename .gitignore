@@ -8,6 +8,10 @@
 *.swp
 tmp
 
+/bats
+/local
+/bin/bashits.sh
+
 # Node
 node_modules
 npm-debug.log

@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 BON_NAME="batshit" # the module / npm package name
-BON_SCRIPT="node_modules/bats/libexec/bats"
+BON_SCRIPT="local/bin/bats"
 
 
 # Borrowed the following helpers code from
