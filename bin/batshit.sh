@@ -1,7 +1,9 @@
 #!/usr/bin/env bash
 
-BON_NAME="batshit" # the module / npm package name
-BON_SCRIPT="local/bin/bats"
+BON_NAME="batshit" # the module's package name
+BON_CWD="." # same as "$(pwd)"
+BON_PRE_PATH="local/bin" # relative to home of the package
+BON_SCRIPT="bats"
 
 
 # Borrowed the following helpers code from

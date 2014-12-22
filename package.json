@@ -24,7 +24,7 @@
   "author": "Orlin M Bozhinov <om@soundsapiens.com>",
   "contributors": [],
   "dependencies": {
-    "bon": "^0.1.2",
+    "bon": "^0.1.3",
     "install-g": "*"
   },
   "devDependencies": {},
