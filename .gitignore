@@ -10,7 +10,6 @@ tmp
 
 /bats
 /local
-/bin/bashits.sh
 
 # Node
 node_modules

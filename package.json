@@ -28,7 +28,10 @@
     "install-g": "*"
   },
   "devDependencies": {},
-  "bin": { "batshit" : "./bin/batshit.sh" },
+  "bin": {
+    "batshit": "./bin/batshit.sh",
+    "batshit-helpers": "./bin/batshit-helpers.sh"
+    },
   "preferGlobal": true,
   "scripts": {
     "preinstall": "bin/prepare.sh",
