@@ -1,6 +1,6 @@
 {
   "name": "batshit",
-  "description": "bats helps with testing shit via npm",
+  "description": "bats helps with testing shit",
   "keywords": [
     "bats",
     "unix",
@@ -12,7 +12,7 @@
     "wrapper",
     "helpers"
   ],
-  "version": "0.0.0",
+  "version": "0.0.1",
   "repository": {
     "type": "git",
     "url": "git://github.com/orlin/batshit.git"
