@@ -1,9 +1,5 @@
 #!/usr/bin/env bash
 
-BON_NAME="batshit" # the module / npm package name
-BON_SCRIPT="node_modules/bats/libexec/bats"
-
-
 # Borrowed the following helpers code from
 # https://github.com/sstephenson/ruby-build/blob/master/test/test_helper.bash
 
@@ -65,6 +61,3 @@ assert_output_contains() {
     } | flunk
   }
 }
-
-
-source bon "$@"
