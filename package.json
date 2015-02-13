@@ -36,7 +36,7 @@
   "scripts": {
     "preinstall": "bin/prepare.bash",
     "install": "node_modules/.bin/install-g || true",
-    "test": "cd .. && batshit"
+    "test": "batshit test"
     },
     "os" : [ "!win32" ],
     "engines" : { "node": "0.10.x || 0.12.x || 1.x.x" },
