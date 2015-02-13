@@ -14,7 +14,11 @@ This should offer the latest
 [bats release](https://github.com/sstephenson/bats/releases) - currently at
 `v0.4.0`.
 
-The goal is to neither clone nor install it - just depend on, and test with.
+## Test [![Build Status](https://img.shields.io/travis/orlin/batshit.svg?style=flat)](http://travis-ci.org/orlin/batshit)
+
+```sh
+npm test
+```
 
 ## License
 

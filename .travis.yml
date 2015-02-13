@@ -1,0 +1,17 @@
+language: node_js
+node_js:
+  - 0.12
+branches:
+  only:
+    - test
+    - active
+    - master
+install:
+  - npm install
+  - npm link # makes it global
+notifications:
+  email:
+    recipients:
+      - om@soundsapiens.com
+    on_success: change
+    on_failure: always
