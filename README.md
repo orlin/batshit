@@ -10,8 +10,10 @@ Testing-with-`bats` should be a hit too.
 I like to test cli scripts with [bats](https://github.com/sstephenson/bats),
 however I write my scripts as node_modules and bats isn't published thus yet.
 
+## Version
+
 This should offer the latest
-[bats release](https://github.com/sstephenson/bats/releases) - currently at
+[bats release](https://github.com/sstephenson/bats/releases) - currently set to
 `v0.4.0`.
 
 ## Test [![Build Status](https://img.shields.io/travis/orlin/batshit.svg?style=flat)](http://travis-ci.org/orlin/batshit)
