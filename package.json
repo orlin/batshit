@@ -12,7 +12,7 @@
     "wrapper",
     "helpers"
   ],
-  "version": "0.1.0",
+  "version": "0.1.0-1",
   "repository": {
     "type": "git",
     "url": "git://github.com/orlin/batshit.git"
@@ -24,7 +24,7 @@
   "author": "Orlin M Bozhinov <om@soundsapiens.com>",
   "contributors": [],
   "dependencies": {
-    "bon": "^0.1.3",
+    "bon": "^0.1.4",
     "install-g": "*"
   },
   "devDependencies": {},
@@ -39,7 +39,7 @@
     "test": "batshit test && batshit bats/test"
     },
     "os" : [ "!win32" ],
-    "engines" : { "node": "0.10.x || 0.12.x || 1.x.x" },
+    "engines" : { "node": "0.10.x || 0.12.x" },
   "licenses": [
     {
       "type": "MIT",
