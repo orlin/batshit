@@ -22,6 +22,24 @@ This should offer the latest
 npm test
 ```
 
+### [Travis](https://travis-ci.org/)
+
+Install batshit globally with `.travis.yml`:
+
+```yml
+install:
+  - npm install
+  - npm i -g batshit
+```
+
+In `package.json` - `batshit` is a devDependency,
+though using global `batshit` to `npm test`:
+
+```json
+"devDependencies": { "batshit": "*" },
+"scripts": { "test": "batshit -t test" },
+```
+
 ## Using
 
 Links to projects tested with `batshit` can be found on [the wiki](https://github.com/orlin/batshit/wiki).
